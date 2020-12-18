@@ -1,5 +1,5 @@
 {
-  "name": "react-admin-cli",
+  "name": "@aurora-org/aurora-admin-cli",
   "version": "1.0.0",
   "description": "Aurora Admin Cli",
   "bin": {
