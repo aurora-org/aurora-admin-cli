@@ -5,7 +5,17 @@
   "bin": {
     "aurora": "bin/aurora.js"
   },
-  "license": "MIT",
+  "keywords": [
+    "react",
+    "admin-dashboard",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aurora-org/aurora-admin-cli.git"
+  },
+  "author": "Edward <wang.huiyang@outlook.com> (http://alazypig.github.io)",
+  "license": "Apache-2.0",
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^6.2.1",
