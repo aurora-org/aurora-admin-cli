@@ -6,7 +6,7 @@ const shell = require('shelljs')
 program
   .usage('<page-name> [options]')
   .description('generator a page')
-  .option('-o --observer', 'observer page')
+  .option('-o, --observer', 'create a observer page')
   .parse(process.argv)
 
 const pageName = program.args[0]
