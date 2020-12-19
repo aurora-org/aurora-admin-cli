@@ -14,8 +14,8 @@ program
 program.on('--help', () => {
   console.log('')
   console.log(chalk.green('Examples:'))
-  console.log(chalk.green('   $aurora init demo'))
-  // console.log(chalk.green('   $aurora create HomePage'))
+  console.log(chalk.green('  $aurora init demo'))
+  console.log(chalk.green('  $aurora comp Header'))
 })
 
 program.parse(process.argv)
