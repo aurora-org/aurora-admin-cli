@@ -3,15 +3,13 @@
 const program = require('commander')
 const chalk = require('chalk')
 
-const renderLogo = require('../lib/logo')
-
-renderLogo()
-
 program
   .version('1.0.0', '-v --version')
   .usage('<command> [project-name]')
   .command('init', 'create a new project')
-  // .command('create', 'create a component')
+  .command('comp', 'create a component')
+  .command('page', 'create a page')
+// .command('create', 'create a component')
 
 program.on('--help', () => {
   console.log('')

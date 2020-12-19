@@ -7,12 +7,15 @@ const shell = require('shelljs')
 const program = require('commander')
 const symbols = require('log-symbols')
 const chalk = require('chalk')
+const renderLogo = require('../lib/logo')
 
 // check if has git
 if (!shell.which('git')) {
   console.log(symbols.error, chalk.red('The script requires git!'))
   shell.exit(1)
 }
+
+renderLogo()
 
 program.usage('<project-name>').parse(process.argv)
 

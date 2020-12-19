@@ -23,7 +23,12 @@
     "handlebars": "^4.7.6",
     "inquirer": "^7.3.3",
     "log-symbols": "^4.0.0",
+    "metalsmith": "^2.3.0",
+    "mobx": "^6.0.4",
+    "mobx-react": "^7.0.5",
     "ora": "^5.1.0",
+    "prettier": "^2.2.1",
+    "react": "^17.0.1",
     "shelljs": "^0.8.4"
   }
 }
