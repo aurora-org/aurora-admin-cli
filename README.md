@@ -2,4 +2,7 @@
 
 _There is no readme file yet._
 
-[ ] Change `src`, `Components`, `Pages` path.
+### Something not done yet.
+
+- [ ] Change `src`, `Components`, `Pages` path.
+- [ ] Change `template-url` path.

@@ -9,7 +9,6 @@ program
   .command('init', 'create a new project')
   .command('comp', 'create a component')
   .command('page', 'create a page')
-// .command('create', 'create a component')
 
 program.on('--help', () => {
   console.log('')
