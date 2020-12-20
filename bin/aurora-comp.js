@@ -4,7 +4,7 @@ const symbols = require('log-symbols')
 
 program
   .usage('<component-name>')
-  .description('generator a component')
+  .description('create a component')
   .parse(process.argv)
 
 const componentName = program.args[0]
