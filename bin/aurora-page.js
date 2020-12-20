@@ -18,15 +18,13 @@ if (!pageName) {
 }
 
 const generatorPage = require('../lib/generatorPage')
-if (!observer) {
-  generatorPage(pageName)
-    .then((res) => {
-      res &&
-        res.forEach((i) => {
-          console.log(symbols.success, chalk.cyan('🎉 create: ') + i)
-        })
-    })
-    .catch((err) => {
-      console.log(symbols.error, chalk.red(err))
-    })
-}
+generatorPage(pageName, observer)
+  .then((res) => {
+    res &&
+      res.forEach((i) => {
+        console.log(symbols.success, chalk.cyan('🎉 create: ') + i)
+      })
+  })
+  .catch((err) => {
+    console.log(symbols.error, chalk.red(err))
+  })
