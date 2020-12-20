@@ -2,6 +2,7 @@ module.exports.CONFIG = {
   srcBase: 'src',
   componentPath: 'Components',
   pagePath: 'Pages',
+  storePath: 'Stores',
 }
 
 module.exports.ERR_MSG = {
