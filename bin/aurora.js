@@ -9,13 +9,14 @@ program
   .command('init', 'create a new project')
   .command('comp', 'create a component')
   .command('page', 'create a page')
+  .command('store', 'create a store')
 
 program.on('--help', () => {
   console.log('')
   console.log(chalk.green('Examples:'))
   console.log(chalk.green('  $aurora init demo'))
   console.log(chalk.green('  $aurora comp Header'))
-  console.log(chalk.green('  $aurora page Login'))
+  console.log(chalk.green('  $aurora page Login [-o]'))
 })
 
 program.parse(process.argv)
