@@ -1,6 +1,6 @@
 {
   "name": "@aurora-org/aurora-admin-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Aurora Admin Cli",
   "bin": {
     "aurora": "bin/aurora.js"

@@ -10,6 +10,7 @@ program
   .command('comp', 'create a component')
   .command('page', 'create a page')
   .command('store', 'create a store')
+  .command('api', 'create a api')
 
 program.on('--help', () => {
   console.log('')
@@ -17,6 +18,7 @@ program.on('--help', () => {
   console.log(chalk.green('  $aurora init demo'))
   console.log(chalk.green('  $aurora comp Header'))
   console.log(chalk.green('  $aurora page Login [-o]'))
+  console.log(chalk.green('  $aurora api Common'))
 })
 
 program.parse(process.argv)
