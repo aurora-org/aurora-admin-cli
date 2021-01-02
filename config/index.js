@@ -3,6 +3,7 @@ module.exports.CONFIG = {
   componentPath: 'Components',
   pagePath: 'Pages',
   storePath: 'Stores',
+  apiPath: 'Api'
 }
 
 module.exports.ERR_MSG = {
@@ -10,4 +11,5 @@ module.exports.ERR_MSG = {
   Or you need to create a \`src\` directory.`,
   pageExists: 'Page already exists.',
   componentExists: 'Component already exists.',
+  apiExists: 'Api already exists.'
 }
