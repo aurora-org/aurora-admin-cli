@@ -4,7 +4,7 @@ const program = require('commander')
 const chalk = require('chalk')
 
 program
-  .version('1.0.0', '-v --version')
+  .version('1.0.3', '-v --version')
   .usage('<command> [name]')
   .command('api', 'create a api')
   .command('comp', 'create a component')
